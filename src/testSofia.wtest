@@ -1,0 +1,12 @@
+import personas.*
+import bonos.*
+import categorias.*
+
+test "Test 1" {
+
+		sofia.setCategoria(cadete)
+		sofia.setBonoResultado(bonoNulo)
+		assert.equals(26000, sofia.sueldo())
+
+}
+
